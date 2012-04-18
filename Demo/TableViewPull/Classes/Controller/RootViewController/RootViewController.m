@@ -37,7 +37,6 @@
 		view.delegate = self;
 		[self.tableView addSubview:view];
 		_refreshHeaderView = view;
-		[view release];
 		
 	}
 	
@@ -69,7 +68,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
 	// Configure the cell.
@@ -152,12 +151,6 @@
 
 - (void)viewDidUnload {
 	_refreshHeaderView=nil;
-}
-
-- (void)dealloc {
-	
-	_refreshHeaderView = nil;
-    [super dealloc];
 }
 
 
