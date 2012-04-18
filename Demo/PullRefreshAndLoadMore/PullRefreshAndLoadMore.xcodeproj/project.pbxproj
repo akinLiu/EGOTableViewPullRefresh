@@ -30,6 +30,7 @@
 		E718D440153E91D9002ACA37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E718D43F153E91D9002ACA37 /* QuartzCore.framework */; };
 		E718D444153E9289002ACA37 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E718D442153E9289002ACA37 /* TableViewController.m */; };
 		E718D445153E9289002ACA37 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E718D443153E9289002ACA37 /* TableViewController.xib */; };
+		E718D449153E94BF002ACA37 /* EGOLoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E718D448153E94BF002ACA37 /* EGOLoadMoreTableFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		E718D441153E9289002ACA37 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		E718D442153E9289002ACA37 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		E718D443153E9289002ACA37 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		E718D447153E94BF002ACA37 /* EGOLoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOLoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		E718D448153E94BF002ACA37 /* EGOLoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOLoadMoreTableFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,8 @@
 			children = (
 				E718D42B153E8FDE002ACA37 /* EGORefreshTableHeaderView.h */,
 				E718D42C153E8FDE002ACA37 /* EGORefreshTableHeaderView.m */,
+				E718D447153E94BF002ACA37 /* EGOLoadMoreTableFooterView.h */,
+				E718D448153E94BF002ACA37 /* EGOLoadMoreTableFooterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 				E718D404153E8C92002ACA37 /* AppDelegate.m in Sources */,
 				E718D436153E8FDE002ACA37 /* EGORefreshTableHeaderView.m in Sources */,
 				E718D444153E9289002ACA37 /* TableViewController.m in Sources */,
+				E718D449153E94BF002ACA37 /* EGOLoadMoreTableFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

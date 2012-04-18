@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class TableViewController;
+#import "TableViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
