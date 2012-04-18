@@ -13,8 +13,6 @@
 		E718D3FE153E8C92002ACA37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E718D3FC153E8C92002ACA37 /* InfoPlist.strings */; };
 		E718D400153E8C92002ACA37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E718D3FF153E8C92002ACA37 /* main.m */; };
 		E718D404153E8C92002ACA37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E718D403153E8C92002ACA37 /* AppDelegate.m */; };
-		E718D407153E8C92002ACA37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E718D406153E8C92002ACA37 /* ViewController.m */; };
-		E718D40A153E8C92002ACA37 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E718D408153E8C92002ACA37 /* ViewController.xib */; };
 		E718D412153E8C92002ACA37 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E718D411153E8C92002ACA37 /* SenTestingKit.framework */; };
 		E718D413153E8C92002ACA37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E718D3F3153E8C92002ACA37 /* UIKit.framework */; };
 		E718D414153E8C92002ACA37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E718D3F5153E8C92002ACA37 /* Foundation.framework */; };
@@ -29,6 +27,9 @@
 		E718D43C153E8FDE002ACA37 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E718D433153E8FDE002ACA37 /* grayArrow@2x.png */; };
 		E718D43D153E8FDE002ACA37 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E718D434153E8FDE002ACA37 /* whiteArrow.png */; };
 		E718D43E153E8FDE002ACA37 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E718D435153E8FDE002ACA37 /* whiteArrow@2x.png */; };
+		E718D440153E91D9002ACA37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E718D43F153E91D9002ACA37 /* QuartzCore.framework */; };
+		E718D444153E9289002ACA37 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E718D442153E9289002ACA37 /* TableViewController.m */; };
+		E718D445153E9289002ACA37 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E718D443153E9289002ACA37 /* TableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +53,6 @@
 		E718D401153E8C92002ACA37 /* PullRefreshAndLoadMore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullRefreshAndLoadMore-Prefix.pch"; sourceTree = "<group>"; };
 		E718D402153E8C92002ACA37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E718D403153E8C92002ACA37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E718D405153E8C92002ACA37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E718D406153E8C92002ACA37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E718D409153E8C92002ACA37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		E718D410153E8C92002ACA37 /* PullRefreshAndLoadMoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullRefreshAndLoadMoreTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E718D411153E8C92002ACA37 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E718D419153E8C92002ACA37 /* PullRefreshAndLoadMoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullRefreshAndLoadMoreTests-Info.plist"; sourceTree = "<group>"; };
@@ -71,6 +69,10 @@
 		E718D433153E8FDE002ACA37 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
 		E718D434153E8FDE002ACA37 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
 		E718D435153E8FDE002ACA37 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		E718D43F153E91D9002ACA37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E718D441153E9289002ACA37 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E718D442153E9289002ACA37 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E718D443153E9289002ACA37 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E718D440153E91D9002ACA37 /* QuartzCore.framework in Frameworks */,
 				E718D3F4153E8C92002ACA37 /* UIKit.framework in Frameworks */,
 				E718D3F6153E8C92002ACA37 /* Foundation.framework in Frameworks */,
 				E718D3F8153E8C92002ACA37 /* CoreGraphics.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		E718D3F2153E8C92002ACA37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E718D43F153E91D9002ACA37 /* QuartzCore.framework */,
 				E718D3F3153E8C92002ACA37 /* UIKit.framework */,
 				E718D3F5153E8C92002ACA37 /* Foundation.framework */,
 				E718D3F7153E8C92002ACA37 /* CoreGraphics.framework */,
@@ -133,9 +137,9 @@
 				E718D428153E8FD2002ACA37 /* Vendor */,
 				E718D402153E8C92002ACA37 /* AppDelegate.h */,
 				E718D403153E8C92002ACA37 /* AppDelegate.m */,
-				E718D405153E8C92002ACA37 /* ViewController.h */,
-				E718D406153E8C92002ACA37 /* ViewController.m */,
-				E718D408153E8C92002ACA37 /* ViewController.xib */,
+				E718D441153E9289002ACA37 /* TableViewController.h */,
+				E718D442153E9289002ACA37 /* TableViewController.m */,
+				E718D443153E9289002ACA37 /* TableViewController.xib */,
 				E718D3FA153E8C92002ACA37 /* Supporting Files */,
 			);
 			path = PullRefreshAndLoadMore;
@@ -284,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E718D3FE153E8C92002ACA37 /* InfoPlist.strings in Resources */,
-				E718D40A153E8C92002ACA37 /* ViewController.xib in Resources */,
 				E718D437153E8FDE002ACA37 /* blackArrow.png in Resources */,
 				E718D438153E8FDE002ACA37 /* blackArrow@2x.png in Resources */,
 				E718D439153E8FDE002ACA37 /* blueArrow.png in Resources */,
@@ -293,6 +296,7 @@
 				E718D43C153E8FDE002ACA37 /* grayArrow@2x.png in Resources */,
 				E718D43D153E8FDE002ACA37 /* whiteArrow.png in Resources */,
 				E718D43E153E8FDE002ACA37 /* whiteArrow@2x.png in Resources */,
+				E718D445153E9289002ACA37 /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +333,8 @@
 			files = (
 				E718D400153E8C92002ACA37 /* main.m in Sources */,
 				E718D404153E8C92002ACA37 /* AppDelegate.m in Sources */,
-				E718D407153E8C92002ACA37 /* ViewController.m in Sources */,
 				E718D436153E8FDE002ACA37 /* EGORefreshTableHeaderView.m in Sources */,
+				E718D444153E9289002ACA37 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,14 +363,6 @@
 				E718D3FD153E8C92002ACA37 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E718D408153E8C92002ACA37 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E718D409153E8C92002ACA37 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		E718D41A153E8C92002ACA37 /* InfoPlist.strings */ = {
